@@ -10,11 +10,8 @@
   h3 {
     text-align: center;
   }
-  .img {
-    display: flex;
-    padding: 500px;
-    width: 200px;
-    height: 200px;
+  .row {
+    margin: 100px;
   }
 }
 

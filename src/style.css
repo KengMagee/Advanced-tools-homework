@@ -4,18 +4,23 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 2000px) {
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+  .img {
+    display: flex;
+    padding: 500px;
+    width: 200px;
+    height: 200px;
+  }
+}
+
 body {
   margin: 60px auto;
-  max-width: 800px;
 }
-
-h1,
-h2,
-h3 {
-  text-align: center;
-  margin: 0;
-}
-
 h1 {
   font-size: 96px;
 }
